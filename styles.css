@@ -89,6 +89,43 @@ svg .paw {
 svg .paw:hover {
   transform: scale(1.1);
 }
+
+/*CORGIS*/
+
+.corgis-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sable, .fawn, .red {
+  padding-right: 25px;
+}
+.sable p, .fawn p, .red p, .stone p {
+  margin-top: -8px;
+  margin-right: 40px;
+  text-align: center;
+  color: #ba8058;
+}
+.sable {
+  fill: #ba8058;
+  color: #ba8058;   
+}
+.fawn {
+  fill: #dfa37e;
+  color: #dfa37e;
+}
+.red {
+  fill: #7e3d15;
+  color: #7e3d15;
+}
+.stone {
+  fill: #494d58;
+  color: #494d58;
+}
+
+
+
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 425px) {
